@@ -1,0 +1,178 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+<style>
+/* 按作业要求保留 .page 的全部声明，仅修改背景色。 */
+.page {
+  display: inline-block;
+  background-color: #FFF6D9;
+  box-shadow: 0 0 30px rgba(80, 58, 35, 0.25);
+  text-align: left;
+  max-width: 720px;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  padding: 42px 20px;
+  background-color: #e9e5dc;
+  color: #263d3b;
+  text-align: center;
+  font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+  font-size: 17px;
+  line-height: 1.85;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 15px;
+  color: #234744;
+  font-family: "Songti SC", "SimSun", serif;
+  font-weight: bold;
+  line-height: 1.45;
+}
+h1 { font-size: 36px; letter-spacing: .06em; }
+h2, h3 { font-size: 25px; }
+p { margin: 12px 0; }
+.region { padding: 26px 36px; }
+.header { background-color: #244541; color: #fff6d9; padding-top: 34px; padding-bottom: 34px; }
+.header h1 { color: #fff6d9; }
+.header .english { color: #e3c693; font-family: Georgia, serif; font-size: 20px; letter-spacing: .1em; }
+.header .eyebrow { margin: 0 0 15px; font-size: 14px; letter-spacing: .18em; }
+.header .lead { margin-bottom: 0; color: #f0e8cf; }
+.intro, .members { border-bottom: 1px solid #d8cda8; }
+p#intro {
+  color: #963d30;
+  font-size: 18px;
+  font-weight: bold;
+  border-left: 3px solid #a6503c;
+  padding-left: 15px;
+}
+p::first-letter { font-size: 1.2em; font-weight: bold; }
+div::first-line { letter-spacing: .025em; }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 18px;
+  font-size: 16px;
+  table-layout: fixed;
+}
+th, td {
+  border: 1px solid #c9be9b;
+  padding: 11px 13px;
+  text-align: left;
+  vertical-align: middle;
+  overflow-wrap: anywhere;
+}
+th { color: #fff6d9; background-color: #31544d; }
+tr:nth-child(odd) td { background-color: #fffaf0; }
+th:first-child { width: 17%; }
+th:last-child { width: 25%; }
+div table a {
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px dashed currentColor;
+}
+a.red { color: #9e3e32; }
+a.blue { color: #225d88; }
+a:link { text-decoration: underline; text-underline-offset: 4px; }
+a:visited { color: #725173; }
+a:hover { color: #a73e24; text-decoration: underline; }
+a:active { color: #112d2b; background-color: #e8d58e; }
+a:focus-visible { outline: 2px solid #225d88; outline-offset: 5px; }
+.links .link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 28px;
+  margin-top: 15px;
+}
+.links .link-row a {
+  font-weight: bold;
+  padding: 6px 0;
+  text-decoration-thickness: 1px;
+}
+.note { font-size: 14px; color: #596a60; }
+.notice {
+  background-color: #ede4c3;
+  border-top: 1px solid #d0c29b;
+  padding: 24px 36px;
+}
+.notice p { font-size: 16px; }
+.notice .credit { font-size: 14px; padding-top: 12px; border-top: 1px solid #ccbe99; }
+@media (max-width: 560px) {
+  body { padding: 18px 10px; }
+  .region, .notice { padding: 22px; }
+  h1 { font-size: 29px; }
+  .header .english { font-size: 17px; letter-spacing: .04em; }
+  th, td { padding: 8px; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- 区域一 顶部标题区 -->
+  <div class="region header">
+    <p class="eyebrow">校园阅读计划 · 初冬专场</p>
+    <h1>城市诗歌朗诵夜</h1>
+    <div class="english">Poetry Reading Night</div>
+    <p class="lead">让一首诗，点亮城市的夜晚。<br>带上喜欢的文字，来听见彼此的声音。</p>
+  </div>
+
+  <!-- 区域二 活动介绍区 -->
+  <div class="region intro">
+    <h2 id="intro">在诗里，与城市相遇</h2>
+    <p>夜色落在街巷，晚风轻轻翻过书页。城市诗歌朗诵夜邀请喜欢阅读的同学围坐一起，分享自己与一座城市的记忆。你可以朗诵一首古诗、一段现代诗，也可以带来自己写下的几行文字。</p>
+    <p>王维写道：“明月松间照，清泉石上流。”诗里的月光与泉声，也能成为我们感受济南的一种方式。从校园里的树影到趵突泉边的流水，让熟悉的风景在朗读中有新的回响。</p>
+    <p>活动分为自由朗诵、作品交流与共同诵读三个环节。每位同学可准备三至五分钟的作品，分享选择它的理由；暂时不想登台，也可以安静聆听。无需朗诵经验，愿意把一句诗读给大家听，就可以参加。</p>
+    <p id="intro">重要提示：请提前准备作品全文，并在活动开始前十分钟到场；朗诵时尊重原作，倾听时保持安静。</p>
+  </div>
+
+  <!-- 区域三 活动报名信息表格区 -->
+  <div class="region members">
+    <h3>活动报名信息</h3>
+    <p class="note">以下为课程网页展示用的示例报名记录；点击参与方式可查看第三次作业的报名页面。</p>
+    <table>
+      <tr>
+        <th>姓名</th>
+        <th>拟朗诵作品</th>
+        <th>参与方式</th>
+      </tr>
+      <tr>
+        <td>林晓</td>
+        <td>《山居秋暝》</td>
+        <td><a href="job3.html#join">个人朗诵</a></td>
+      </tr>
+      <tr>
+        <td>陈宁</td>
+        <td>《再别康桥》</td>
+        <td><a href="job3.html#join">双人共读</a></td>
+      </tr>
+      <tr>
+        <td>周悦</td>
+        <td>原创诗《晚风经过校园》</td>
+        <td><a href="job3.html#join">作品分享</a></td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- 区域四 页面链接区 -->
+  <div class="region links">
+    <h3>继续了解活动</h3>
+    <p>从页面里的链接出发，看看往期展示，也了解社团活动与报名信息。</p>
+    <div class="link-row">
+      <a class="red" href="https://hongchenwusdnu.github.io/bookstore/job4.html">查看往期活动照片</a>
+      <a class="blue" href="job3.html">在线咨询活动详情</a>
+    </div>
+  </div>
+
+  <!-- 区域五 底部公告区 -->
+  <div class="notice">
+    <h3>活动公告</h3>
+    <p>时间安排：拟定于 2026 年 12 月 5 日 19:00。<br>地点安排：校园阅读活动室，具体场次以正式通知为准。</p>
+    <p>参与准备：自备作品文本，建议控制在三至五分钟。<br>允许个人朗诵或结伴共读，欢迎零基础同学参加。</p>
+    <p>现场约定：请将手机调为静音，尊重每一位朗读者。<br>未经同意，请勿录制或公开他人的朗诵片段。</p>
+    <p class="credit">Web 第四次上机作业 · 刘润林 · 学号末四位 0402<br>课程练习页面，活动安排与报名记录均为示例。</p>
+  </div>
+
+</div>
+</body>
+</html>
